@@ -2,7 +2,7 @@ import React from 'react';
 
 const ToDo = ({todos, deleteItem}) => {
 
-  const todoList = todos.length ? (
+  const todoList = (todos.length > 0) ? (
     todos.map(todo => {
       return(
         <div className='collection-item'  key={todo.id}>
