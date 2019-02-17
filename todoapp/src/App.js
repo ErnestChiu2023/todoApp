@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ToDo from './ToDo';
 import AddItem from './AddItem';
 
+// Ernest Chiu
+
 class App extends Component {
   state = {
     todos:[
